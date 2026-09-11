@@ -1,10 +1,21 @@
+/* google fonts - remota */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Racing+Sans+One&display=swap');
+/* local */
+@font-face {
+	src: url("mistur-sleuth.ttf");
+	font-family: "Mistur Sleuth";
+}
+
+
 *{
 	margin: 0;
-	padding: 0;
-	font-family: "arial"	
+	padding: 0;	
+}
+html{
+	font-family: 'Inter', sans-serif;
 }
 #contenedor{
-	width: 90%;
+	width: 90%;	
 	margin: 0 auto;
 	display:flex;
 	flex-direction: row;
@@ -16,6 +27,7 @@
 		width: 30%;
 		padding: 1%;
 		box-sizing: border-box;
+		font-family: 'Mistur Sleuth', cursive;
 	}
 	.segundo{
 		background: rgb(34,167,240);
@@ -46,6 +58,8 @@
 	.logo{
 		width:30%;
 		align-self: center;
+		font-family: 'Racing Sans One', cursive;
+		font-weight: 600;
 	}
 	.navbar ul{
 		display: flex;
