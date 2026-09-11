@@ -1,0 +1,41 @@
+/* css externo */
+
+/* selector de elemento / etiqueta */
+body{
+    background: rgb(85, 104, 249);
+}
+h1{
+    color: tomato; font-family: arial; text-align: center;
+}
+
+/* selector de clase
+
+.nombreClase{
+    propiedad:valor;
+}
+
+*/
+.titulos{
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.principal{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* selector ID */
+#contenidoPrincipal{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* selector universal */
+*{
+    /* reset css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
