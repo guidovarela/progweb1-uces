@@ -1,0 +1,123 @@
+/* google fonts - remota */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Racing+Sans+One&display=swap');
+/* local */
+@font-face {
+	src: url("mistur-sleuth.ttf");
+	font-family: "Mistur Sleuth";
+}
+
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+html{
+	font-family: 'Inter', sans-serif;
+}
+#contenedor{
+	width: 90%;	
+	margin: 0 auto;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	}
+	.primero{
+		background: rgb(207,0,15);
+		width: 30%;
+		padding: 1%;
+		box-sizing: border-box;
+		font-family: 'Mistur Sleuth', cursive;
+	}
+	.segundo{
+		background: rgb(34,167,240);
+		width: 30%;
+		padding: 1%;
+		box-sizing: border-box;
+	}
+	.tercero{
+		background: rgb(38,166,91);
+		width: 30%;
+		padding: 1%;
+		box-sizing: border-box;
+	}
+
+/* .caja{clear:both} */
+
+#contenedor img{width: 100%}
+
+.header{
+	background: white;
+	color:tomato;
+	padding: 0.5em 3em;
+	margin-bottom:2em;
+	display:flex;
+	justify-content: space-between;
+	}
+
+	.logo{
+		width:30%;
+		align-self: center;
+		font-family: 'Racing Sans One', cursive;
+		font-weight: 600;
+	}
+	.navbar ul{
+		display: flex;
+		list-style-type: none;
+		}
+		.navbar ul li{
+			padding: 1em;
+		}
+
+.banner-top{
+	padding: 1.5em;
+	display: flex;
+	justify-content: center;
+}
+
+.footer{
+	margin-top:4em;
+	border-top:5px solid white;
+	padding: 2em 3em;
+	background: rgb(82, 15, 15);
+	color:white;
+	display:flex;
+	justify-content: space-between;
+	}
+	.data{
+		background: rgba(255, 255, 255, 0.5);
+		padding:2em;
+		color:black;
+		border-radius:10px;
+	}
+	.map{
+		width:60%;
+	}
+
+
+/* 
+breakpoints
+ */
+/* SM */
+@media (min-width:0px) and (max-width:576px) {
+	#contenedor{
+		flex-direction: column;
+	}
+	.primero,.segundo,.tercero{
+		width: 100%;
+	}
+}
+/* M */
+@media (min-width:577px) and (max-width:768px) {
+
+	.primero{width: 100%;}
+	.primero figure{height: 30vh;overflow: hidden;}
+	.segundo,.tercero{width: 50%;}
+}
+/* Lg - Xl */
+@media (min-width:769px) and (max-width:1200px) {
+	body{background: rgb(62, 21, 158);}
+}
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap ;
+            justify-content:space-around;
+            }
+            .flex-items{
+                width: 30%;
+                background-color: tomato;
+                border-radius: 10%;
+                height: 100px;
+                margin-bottom: 1.5em;
+            }
+
+
+        header{
+            display: flex;
+            align-items: center;
+            }
+            .logo{width: 20%;}
+            .search{width: 60%;}
+            .navbar{width: 30%;}
+
+            .navbar ul{
+                display: flex;
+                list-style-type: none;
+                justify-content: space-around;
+                }
+
+    </style>
+
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <div class="search">
+            <form action="">
+                <input type="search" name="" id="">
+            </form>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="">In</a>
+                </li>
+                <li>
+                    <a href="">Tw</a>
+                </li>
+                <li>
+                    <a href="">Fb</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>
+            Flexbox
+        </h2> 
+
+        <hr>
+
+        <div class="flex-container">
+            <div class="flex-items">
+                <div class="items">caja 1</div>
+                <div class="items">caja 2</div>
+            </div>
+            <div class="flex-items"></div>
+            <div class="flex-items"></div>
+            <div class="flex-items"></div>
+            <div class="flex-items"></div>
+            <div class="flex-items"></div>
+            <div class="flex-items"></div>
+            <div class="flex-items"></div>
+            <div class="flex-items"></div>
+            
+        </div>
+    </main>
+
+</body>
+</html>
