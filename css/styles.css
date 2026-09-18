@@ -39,3 +39,42 @@ h1{
     box-sizing: border-box;
 }
 
+
+
+/* Formulario Contacto */
+
+#formContacto{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    }
+    #formContacto div{
+        margin-bottom: 0.8em;
+    }
+    #formContacto input,#formContacto textarea, #formContacto select{
+        width: 100%;
+        padding: 0.5em;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    #formContacto input[type="radio"]{
+        width:10%;
+    }
+    #formContacto input[type="checkbox"]{
+        width:5%;
+    }
+    #formContacto input[type="submit"]{
+        background-color: rgb(85, 104, 249);
+        color: white;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    /* pseudo-clases -> :hover / :focus */
+    #formContacto input[type="submit"]:hover{
+        background-color: rgb(11, 36, 227);
+        color: white;
+    }

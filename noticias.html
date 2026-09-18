@@ -9,12 +9,87 @@
 <body>
     
     <!-- titulo seccion -->
-    <h1>Noticias</h1>
+    <h1>Contacto</h1>
 
-    <h2>Maradona</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure ex pariatur nam ducimus! Minima explicabo natus aliquid temporibus fuga repudiandae alias ipsum rem voluptas nihil ex, maxime voluptate iste.</p>
+    <nav>
+        <a href="index.html">Volver</a>
+    </nav>
 
-    <a href="index.html">Volver</a>
+    <h2>
+        Completa los datos para comunicarnos 
+    </h2>
+
+    <!--
+    form 
+        label
+            input
+            select
+                option
+            textarea
+    -->
+    <form action="mailto:mail@mail.com" method="POST" id="formContacto">
+
+        <div>
+            <label>
+                Nombre
+                <input type="text" name="nombre" required readonly>
+            </label>
+            <!-- <label for="nombre">Nombre</label>
+            <input type="text" name="" id="nombre">
+            <br>
+            Nombre <input type="text" name="" id="nombre"> -->
+            <!-- <input type="range" name="" step="1" min="1" max="5"> -->
+        </div>
+
+        <div>
+            <label>
+                Email
+                <input type="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}" placeholder="nombre@mail.com">
+            </label>
+        </div>
+
+        <div>
+            Localidad
+            <select name="localidad">
+                <option>CABA</option>
+                <option>Avellaneda</option>
+                <option>Quilmes</option>
+            </select>
+        </div>
+
+        <div>
+            Género
+            <br>
+            <input type="radio" name="genero" value="F"> Fem
+            <input type="radio" name="genero" value="M"> Masc
+            <input type="radio" name="genero" value="O"> Otro
+        </div>
+
+        <div>
+            <label>
+                <input type="checkbox" name="terminos" required value="acepta">
+                Acepto terminos y condiciones,y que me sumes tu listado de SPAM
+            </label>
+        </div>
+
+        <div>
+            <label>
+            Mensaje
+            <textarea name="" id=""></textarea>
+            </label>
+        </div>
+
+        <input type="submit" value="Enviar">
+        <!-- nombre, email, localidad, genero, terminos, mensaje -->
+
+
+
+
+
+    </form>
+
+    
+
 
 </body>
 </html>
