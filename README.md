@@ -48,4 +48,3 @@ El proyecto de cursada consiste en el desarrollo grupal de un **Sitio Web Multip
 ## 🔗 Enlaces Importantes
 * 🌐 **Campus Virtual / Aula Virtual UCES:** [https://miuces.uces.edu.ar/](http://www.uces.edu.ar/)
 * 🏫 **Sitio Institucional UCES:** [http://www.uces.edu.ar/](http://www.uces.edu.ar/)
-```
