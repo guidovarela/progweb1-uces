@@ -11,7 +11,7 @@ let btn1 = document.getElementById('btnAdd');
 
 btn1.addEventListener('click',function(){
     agregarPersona(document.getElementById('camponuevo').value)
+    for (const listpersonas of personas) {
+        document.querySelector('#personas').innerHTML += listpersonas
+    }
 })
-for (const listpersonas of personas) {
-    document.querySelector('.personas').innerHTML += listpersonas
-}

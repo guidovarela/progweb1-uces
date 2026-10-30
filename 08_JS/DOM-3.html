@@ -8,13 +8,13 @@
 </style>
 
 <body>
-    <h2 class="ejemplo">Encabezado con clase "ejemplo"</h2>
+    <h2 id="ejemplo">Encabezado con clase "ejemplo"</h2>
     <p class="ejemplo">Párrafo con clase "ejemplo".</p>
     <button class="boton" onclick="agregarFondo()">Agregar fondo</button>
     
     <script>
         function agregarFondo() {
-            document.querySelector(".ejemplo").style.backgroundColor = "lightblue";
+            document.querySelector("h2").style.backgroundColor = "lightblue";
             document.querySelector(".boton").innerHTML = "Gracias! :)";
         }
     </script>
